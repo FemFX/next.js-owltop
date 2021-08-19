@@ -1,0 +1,27 @@
+@import "../../styles/variables";
+
+.star {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.filled {
+  fill: $primary;
+}
+.editable {
+  cursor: pointer;
+}
+.ratingWrapper {
+  position: relative;
+}
+
+.errorMessage {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  color: $red;
+}
+
+.error svg {
+  stroke: $red;
+}
