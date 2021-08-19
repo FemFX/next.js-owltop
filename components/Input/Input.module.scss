@@ -1,0 +1,31 @@
+@import "../../styles/variables";
+.input {
+  padding: 7px 15px;
+  color: var(--black);
+  border: none;
+  border-radius: 5px;
+  outline-color: $primary;
+  background: var(--white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+  font-family: $fontFamily;
+  font-size: 16px;
+  line-height: 22px;
+  &::placeholder {
+    color: $gray;
+  }
+}
+
+.error {
+  border: 1px solid $red;
+}
+
+.inputWrapper {
+  position: relative;
+}
+
+.errorMessage {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  color: $red;
+}
