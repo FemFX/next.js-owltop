@@ -1,0 +1,42 @@
+@import "../../styles/variables";
+
+.tag {
+  display: inline-block;
+  box-sizing: border-box;
+  margin-right: 5px;
+  border-radius: 20px;
+}
+.s {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 12px;
+}
+.m {
+  padding: 5px 10px;
+  font-size: 14px;
+  line-height: 14px;
+}
+.ghost {
+  border: 1px solid $grayLight;
+}
+.red {
+  color: #fff;
+  background: #de0000;
+  font-weight: bold;
+}
+.grey {
+  color: #fff;
+  background: #b3c0d9;
+  font-weight: bold;
+}
+.green {
+  color: $green;
+  background: $greenLight;
+  font-weight: bold;
+}
+.primary {
+  color: $primary;
+  background: none;
+  border: 1px solid $primary;
+  font-weight: bold;
+}
