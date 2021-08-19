@@ -1,0 +1,33 @@
+@import "../../styles/variables";
+.textarea {
+  width: 100%;
+  padding: 7px 15px;
+  color: $black;
+  border: none;
+  border-radius: 5px;
+  outline-color: $primary;
+  background: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+  font-family: $fontFamily;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.textarea::placeholder {
+  color: $gray;
+}
+
+.error {
+  border: 1px solid $red;
+}
+
+.textareaWrapper {
+  position: relative;
+}
+
+.errorMessage {
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  color: $red;
+}
